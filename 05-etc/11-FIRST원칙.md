@@ -1,6 +1,6 @@
 # FIRST 원칙
 
-클린코드의 저자인 밥 마틴이 제시한 규칙. 단위테스트의 
+클린코드의 저자인 밥 마틴이 제시한 규칙. 좋은 단위테스트를 만들기 위한 원칙을 설명한다.
 
 - Fast: 유닛 테스트는 빨라야 한다.
 - Isolated: 유닛 테스트는 그 자체만으로 실행되어야 한다. 즉, 독립적이어야 하고 다른 테스트에 의존하거나 영향을 주어선 안된다.
@@ -13,3 +13,5 @@
   - test for security and other issues
   - test for large values, what would a large input do their program.
   - should try to cover every use case scenario and not just aim for 100% code coverage.
+
+https://medium.com/@tasdikrahman/f-i-r-s-t-principles-of-testing-1a497acda8d6
